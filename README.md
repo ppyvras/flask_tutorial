@@ -5,7 +5,7 @@ My version of the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the
 
 Virtual environment is called flaskapp, probably should have called venv per convention
 
-$ source flaskapp/bin/activate
+$ flaskapp/bin/activate # for windows
 
 ## setting up environment variable
 
