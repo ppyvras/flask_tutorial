@@ -5,7 +5,7 @@ My version of the [Flask Mega Tutorial](https://blog.miguelgrinberg.com/post/the
 
 Virtual environment is called flaskapp, probably should have called venv per convention
 
-$ flaskapp/bin/activate # for windows
+$ source flaskapp/Scripts/activate # for windows when using GitBash
 
 ## setting up environment variable
 
@@ -18,3 +18,13 @@ $ flask run
 App then available locally at:
 
 http://localhost:5000/
+
+## database migrations
+
+Uses flask-migrate which integrates flask with alembic
+
+$ flask db init  # initialising the migration
+
+$ flask db migrate -m "<desc of migration>"
+
+$ flask db upgrade  # follow through with migration plan
