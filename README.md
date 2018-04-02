@@ -28,3 +28,9 @@ $ flask db init  # initialising the migration
 $ flask db migrate -m "<desc of migration>"
 
 $ flask db upgrade  # follow through with migration plan
+
+## flask environment
+
+function 'make_shell_context()' sets up an environment for testing in the shell.
+
+$ flask shell # for running the shell
